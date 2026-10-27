@@ -107,6 +107,12 @@ td {
 th {
     background: #eee;
 }
+#emptyMessage {
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    color: #666;
+}
 .delete-btn {
     padding: 6px 10px;
     background: #d93636;

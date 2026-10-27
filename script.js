@@ -72,7 +72,7 @@ function displayExpenses() {
 
             saveExpenses();
             displayExpenses();
-        });
+    });
         actionCell.appendChild(deleteButton);
 
         row.appendChild(titleCell);
@@ -84,7 +84,7 @@ function displayExpenses() {
         expenseList.appendChild(row);
 
         total = total + expense.amount;
-    }
+}
     totalElement.textContent = total.toLocaleString("en-PK");
     emptyMessage.style.display =
         expenses.length === 0 ? "block" : "none";
